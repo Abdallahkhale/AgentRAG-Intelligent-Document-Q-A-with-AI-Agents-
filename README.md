@@ -1,4 +1,4 @@
-#🧠 AgentRAG: Retrieval-Augmented Generation with ReAct AI Agents
+## 🧠 AgentRAG: Retrieval-Augmented Generation with ReAct AI Agents
 AgentRAG is a document-aware question answering system that combines Retrieval-Augmented Generation (RAG) with intelligent reasoning agents. It allows users to upload documents (PDF, TXT, DOCX, CSV) and ask natural language questions—returning grounded, explainable answers by reasoning step-by-step.
 
 🚀 Key Features

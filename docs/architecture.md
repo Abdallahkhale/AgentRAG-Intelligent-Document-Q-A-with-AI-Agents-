@@ -1,8 +1,8 @@
-# Architecture notes
+# GroundedLens architecture notes
 
 ## Overview
 
-AgentRAG has two user-facing responsibilities and one retrieval loop:
+GroundedLens has two user-facing responsibilities and one retrieval loop:
 
 - The **Flutter client** handles file selection, upload status, conversation history, and question submission.
 - The **FastAPI prototype** handles document ingestion and query requests.

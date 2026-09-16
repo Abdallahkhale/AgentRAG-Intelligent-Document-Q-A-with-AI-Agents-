@@ -1,11 +1,11 @@
 {
-    "name": "AgentRAG",
-    "short_name": "AgentRAG",
+    "name": "GroundedLens",
+    "short_name": "GroundedLens",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Ask grounded questions about the documents you upload.",
+    "description": "GroundedLens document question answering with AI agents.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

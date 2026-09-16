@@ -1,6 +1,6 @@
-# AgentRAG Flutter client
+# GroundedLens Flutter client
 
-This Flutter application is the web client for AgentRAG. It lets a user upload supported documents, see the current document list, and ask questions against the retrieval backend.
+This Flutter application is the web client for GroundedLens. It lets a user upload supported documents, see the current document list, and ask questions against the retrieval backend.
 
 ## Responsibilities
 

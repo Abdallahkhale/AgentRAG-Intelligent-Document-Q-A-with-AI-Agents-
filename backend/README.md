@@ -1,4 +1,4 @@
-# Backend prototype
+# GroundedLens backend prototype
 
 The backend currently lives in [`notebooks/agentrag_backend.ipynb`](notebooks/agentrag_backend.ipynb). It is a research and demonstration notebook that contains the retrieval pipeline and a FastAPI wrapper.
 

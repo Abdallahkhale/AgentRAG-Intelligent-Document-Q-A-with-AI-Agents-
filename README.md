@@ -1,8 +1,8 @@
-# AgentRAG
+# GroundedLens
 
-## Intelligent document Q&A with retrieval and AI agents
+## Agentic document intelligence with grounded answers
 
-AgentRAG is a document-aware question-answering prototype. A user uploads PDF, DOCX, TXT, or CSV files, then asks questions in natural language. The system retrieves relevant passages, gives the agent source context, and generates an answer with the Mistral language model.
+GroundedLens is a document-aware question-answering prototype, previously presented as AgentRAG. A user uploads PDF, DOCX, TXT, or CSV files, then asks questions in natural language. The system retrieves relevant passages, gives the agent source context, and generates an answer with the Mistral language model.
 
 This repository demonstrates the complete AI workflow: document ingestion, text cleaning, chunking, transformer embeddings, vector search, agent orchestration, an asynchronous API, and a Flutter Web client.
 

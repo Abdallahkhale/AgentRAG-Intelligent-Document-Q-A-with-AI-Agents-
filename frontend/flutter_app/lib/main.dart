@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'AgentRAG',
+      title: 'GroundedLens',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -303,7 +303,7 @@ class _AgentRagAppState extends State<AgentRagApp> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             const Text(
-                              'AgentRAG: Intelligent Document Q&A with AI Agents',
+                              'GroundedLens: Agentic Document Q&A',
                               style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.bold,

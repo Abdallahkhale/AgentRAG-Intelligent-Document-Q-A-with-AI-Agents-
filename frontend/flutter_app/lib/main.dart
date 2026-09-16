@@ -3,12 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:http/http.dart' as http;
+import 'core/config/app_config.dart';
 import 'dart:convert';
 import 'dart:typed_data';
-import 'dart:html' as html;
 
-// API base URL - replace with your actual ngrok URL when testing
-const String apiBaseUrl = "https://e2e1-34-145-27-23.ngrok-free.app"; // Change to your ngrok URL when deployed
+const String apiBaseUrl = AppConfig.apiBaseUrl;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,19 +26,19 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AiAssistant2(),
+      home: const AgentRagApp(),
     );
   }
 }
 
-class AiAssistant2 extends StatefulWidget {
-  const AiAssistant2({Key? key}) : super(key: key);
+class AgentRagApp extends StatefulWidget {
+  const AgentRagApp({Key? key}) : super(key: key);
 
   @override
-  _AiAssistant2State createState() => _AiAssistant2State();
+  _AgentRagAppState createState() => _AgentRagAppState();
 }
 
-class _AiAssistant2State extends State<AiAssistant2> {
+class _AgentRagAppState extends State<AgentRagApp> {
   // Chat history with an initial assistant message.
   List<Map<String, String>> chatHistory = [
     {"role": "assistant", "content": "Hello! I'm your AI research assistant. Upload documents and ask me questions about them."}

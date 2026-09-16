@@ -1,11 +1,11 @@
 {
-    "name": "rag_with_react_api",
-    "short_name": "rag_with_react_api",
+    "name": "AgentRAG",
+    "short_name": "AgentRAG",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Ask grounded questions about the documents you upload.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

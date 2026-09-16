@@ -1,0 +1,37 @@
+# Flutter and Dart generated files
+**/.dart_tool/
+**/.packages
+**/.pub/
+**/build/
+**/flutter_export_environment.sh
+
+# Python generated files and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local IDE files
+.idea/
+*.iml
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local data and model artifacts
+uploaded_documents/
+*.faiss
+*.index
+*.ckpt
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
